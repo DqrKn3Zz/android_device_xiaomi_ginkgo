@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 Android Open Source Illusion Project
+# Copyright (C) 2021 The Evolution X Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_ginkgo.mk
+    $(LOCAL_DIR)/evolution_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_ginkgo-user \
-    aosip_ginkgo-userdebug \
-    aosip_ginkgo-eng
+    evolution_ginkgo-user \
+    evolution_ginkgo-userdebug \
+    evolution_ginkgo-eng
